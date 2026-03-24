@@ -1,4 +1,5 @@
 # i believe this is optimized ver
+# maybe its not idk
 
 
 class LinkedList:
