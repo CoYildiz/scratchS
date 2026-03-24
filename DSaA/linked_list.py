@@ -84,7 +84,7 @@ class LinkedList:
             else:
                 last = self.head
 
-                for i in range(index - 1):# i think there is a bug err:"out of range" fix later
+                for _ in range(index - 1):# i think there is a bug err:"out of range" fix later
                     if last is None:
                         raise ValueError("Index out of bounds")
                     last = last.next
@@ -156,7 +156,7 @@ class LinkedList:
             raise ValueError("Index out of bounds")
         else:
             last = self.head
-            for i in range(index):
+            for _ in range(index):
                 if last.next is None:
                     raise ValueError("Index out of bounds")
                 last = last.next
