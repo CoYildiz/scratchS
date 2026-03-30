@@ -1,1 +1,15 @@
+# Manim çıktıları 
+**/media/
+
+# Python ve Ortam Dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
 .venvfs/
+pyrightconfig.json
+
+
+# Emacs çöp dosyaları
+*~
+\#*\#
+.\#*
